@@ -1,4 +1,4 @@
-const URL_API = "http://localhost:8080/api";
+const URL_API = "https://backend-restaurante-bxhph5hzd0e4bahy.japaneast-01.azurewebsites.net/api";
 
 export async function obtenerProductos() {
   const respuesta = await fetch(`${URL_API}/productos`);
